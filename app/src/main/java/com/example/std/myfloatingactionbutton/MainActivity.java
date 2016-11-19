@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     // friendname is empty, display warning message
                     Toast.makeText(MainActivity.this,
-                            "Please enter your friend name",
+                            "Please enter your friend name.",
                             Toast.LENGTH_SHORT).show();
                     // set focus
                     friendname.requestFocus();
