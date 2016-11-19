@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                     friendAdapter.notifyDataSetChanged();
                     // show message on snackbar
                     Snackbar snackbar = Snackbar
-                            .make(coordinatorLayout, friendname.getText() + " is added", Snackbar.LENGTH_LONG)
+                            .make(coordinatorLayout, friendname.getText() + " is added.", Snackbar.LENGTH_LONG)
                             .setAction("Undo", undoOnClickListener);
                     snackbar.show();
                     mAlertDialog.dismiss();
