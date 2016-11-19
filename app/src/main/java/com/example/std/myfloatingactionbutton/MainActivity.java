@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         final EditText friendname = (EditText) add_friend_view.findViewById(R.id.edt_friend);
 
-        builder.setPositiveButton("Add", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Add!", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // Do nothing
